@@ -1,2 +1,4 @@
 FROM php
-CMD ["php", "-v"]
+WORKDIR /for_paiza_php
+COPY . /for_paiza_php
+CMD ["bash"]
